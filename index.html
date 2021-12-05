@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    <title>Health Website Design</title>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="logo2.png" ></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SHOP</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">LOG IN</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Go Healthy and Happy!</h1>
+    <p>
+        There's nothing more important than our good health <br>that's our principal capital asset.
+    </p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+
+</section>
+
+<!------- Course ------->
+
+<section class="course">
+    <h1>Course We Offer</h1>
+    <p>we offer herbal medicines that help heal without 
+        many side effects. and we also explain about the drugs 
+        we sell</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Organic</h3>
+                <img src="ORGANIC.png" width="200px" align="center">
+                <p>With quality, safety and efficacy as our main focus, 
+                    we’re proud to offer family-friendly products that are organically 
+                    grown with only the best ingredients</p>
+            </div>
+            <div class="course-col">
+                <h3>Grown In The USA</h3>
+                <img src="GROWN IN THE USA.png" width="200px" align="center">
+                <p>Grown and manufactured in the USA, we’re proud of the rich soil 
+                    our hemp is grown on. Made by dedicated farmers with care and a dash of love.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>THC Free</h3>
+                <img src="THC FREE.png" width="200px" align="center">
+                <p>Using sustainable farming methods and meticulous care, we’re able to produce 
+                    powerful phytocannabinoid-rich CBD products that are completely TCH-Free 
+                    and generate absolutely no psychoactive effect.</p>
+            </div>
+            <div class="course-col">
+                <h3>Lab Tested</h3>
+                <img src="LAB TESTED.png" width="200px" align="center">
+                <p>Safety and accuracy are our top priority when it comes to our products. 
+                    All of our products are tested by independent, third-party labs across the country.</p>
+            </div>
+        </div>
+</section>
+
+
+<!----product---->
+<section class="product">
+    <h1>Our Product</h1>
+    <p>This is Our Popular Product</p>
+
+    <div class="row">
+        <div class="product-col">
+            <img src="gummies.jpg" width="200px">
+            <div class="layer">
+                <h4>GUMMIES</h4>
+            </div>
+        </div>
+        <div class="product-col">
+            <img src="salve.jpg" width="200px">
+            <div class="layer">
+                <h4>SALVE</h4>
+            </div>
+        </div>
+            </div>
+
+            <div class="row">
+            <div class="product-col">
+                <img src="softgels.jpg" width="200px">
+                <div class="layer">
+                    <h4>SOFTGELS</h4>
+                </div>
+            </div>
+            <div class="product-col">
+                <img src="powder.jpg" width="200px">
+                <div class="layer">
+                    <h4>POWDER</h4>
+        </div>
+    </div>
+</div>
+</section>
+
+<!---SHOP--->>
+<section class="shop">
+    <h1>Catalog</h1>
+
+    <div class="row">
+        <div class="shop-col">
+            <img src="gummies.jpg" width="200px">
+            <p>Gummies - $49.99</p>
+        </div>
+        
+        <div class="shop-col">
+            <img src="salve.jpg" width="200px">
+            <p>CBD Salve - $59.99</p>
+
+            </div>
+        </div>
+    
+    <div class="row">
+        <div class="shop-col">
+            <img src="softgels.jpg" width="200px">
+            <p>CBD Softgels - $39.99</p>
+            </div>
+
+            
+            <div class="shop-col">
+                <img src="powder.jpg" width="200px">
+                <p>CBD Powder - $69.99</p>
+        
+    </div>
+</div>
+</section>
+
+<!---- CONTACT ---->
+
+<section class="footer">
+    <h5>CONTACT US</h5>
+    <p>sales@healthy.com</p>
+    <p>Miami, FL</p>
+    <p>Monday - Friday, 10am - 6pm</p>
+    <p>Saturday, 11am - 6pm</p>
+    <p>Sunday, Closed</p>
+    <a href="" class="footer-btn">CONTACT US</a>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        
+    </div>
+    <p>Made with <i class="fa fa-facebook"></i> by Healthy </p>
+</section>
+
+
+<!-----JavaScript for Health Menu------->
+
+<script>
+
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
